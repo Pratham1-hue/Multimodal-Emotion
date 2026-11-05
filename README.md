@@ -91,14 +91,12 @@ All of these live in `config.py`, so tweaking experiments is just editing one fi
 
 Training curves and sample predictions will go here as the project progresses:
 
-| Training Loss / Accuracy | Architecture |
-
 <p align="center">
-  <img src="docs/screenshot_loss.png" alt="Training loss and accuracy curves" width="45%">
-  <img src="docs/screenshot_diagram.png" alt="Model architecture diagram" width="45%">
+  <img src="docs/training_curves.png" alt="Sample training loss and accuracy curves" width="49%">
+  <img src="docs/architecture.png" alt="Model architecture diagram" width="49%">
 </p>
 
-*(Placeholders — drop your training output images into a `docs/` folder to replace these.)*
+The curves above are from a synthetic example run to show what the plots will look like — the script that generated both images lives in [`docs/make_images.py`](docs/make_images.py). Once you've done a real training run, replace `docs/training_curves.png` with your actual curves.
 
 ## Ideas for next steps
 
